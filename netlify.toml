@@ -794,17 +794,9 @@ conditions = { Language = ["vi"], Country = ["US"] }
 
 [[redirects]]
 
-from = "/:locale/_next/static/*"
-to = "/static/:splat"
+from = "*/_next/static/*"
+to = "_next/static/:splat"
 status = 200
-
-[[redirects]]
-
-from = "/_next/image*"
-to = "/ipx/w:width,q_:quality/:url"
-query = { url = ':url', w = ':width', q = ':quality' }
-status = 301
-
 
 # Redirect to default language by country
 [[redirects]]
