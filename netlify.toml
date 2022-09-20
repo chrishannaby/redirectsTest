@@ -1,0 +1,1358 @@
+[[headers]]
+for = "/*"
+[headers.values]
+X-XSS-Protection = "1; mode=block"
+X-Frame-Options = ""
+
+# App Privacy Policy Redirects
+[[redirects]]
+from = "/de/app-privacy-policy-EU"
+to = "/de-de/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/en/app-privacy-policy-CA"
+to = "/en-ca/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/en/app-privacy-policy-CL"
+to = "/en-cl/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/en/app-privacy-policy-EU"
+to = "/en-de/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/en/app-privacy-policy-GB"
+to = "/en-gb/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/en/app-privacy-policy-US"
+to = "/en-us/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/es/app-privacy-policy-CL"
+to = "/es-cl/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/es/app-privacy-policy-EU"
+to = "/es-es/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/es/app-privacy-policy-US"
+to = "/es-us/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/fr/app-privacy-policy-CA"
+to = "/fr-ca/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/fr/app-privacy-policy-CL"
+to = "/fr-cl/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/fr/app-privacy-policy-EU"
+to = "/fr-fr/app-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/it/app-privacy-policy-EU"
+to = "/it-it/app-privacy-policy"
+status = 301
+
+# App Terms and Conditions Redirects
+[[redirects]]
+from = "/de/app-terms-and-conditions-EU"
+to = "/de-de/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/en/app-terms-and-conditions-CA"
+to = "/en-ca/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/en/app-terms-and-conditions-CL"
+to = "/en-cl/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/en/app-terms-and-conditions-EU"
+to = "/en-de/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/en/app-terms-and-conditions-GB"
+to = "/en-gb/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/en/app-terms-and-conditions-US"
+to = "/en-us/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/es/app-terms-and-conditions-CL"
+to = "/es-cl/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/es/app-terms-and-conditions-EU"
+to = "/es-es/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/es/app-terms-and-conditions-US"
+to = "/es-us/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/fr/app-terms-and-conditions-CA"
+to = "/fr-ca/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/fr/app-terms-and-conditions-CL"
+to = "/fr-cl/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/fr/app-terms-and-conditions-EU"
+to = "/fr-fr/app-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/it/app-terms-and-conditions-EU"
+to = "/it-it/app-terms-and-conditions"
+status = 301
+
+
+#RMT2 US redirects
+[[redirects]]
+from = "/amex-serve"
+to = "/en-us/amex-serve"
+status = 301
+
+[[redirects]]
+from = "/bluebird/legal/privacy-policy"
+to = "/en-us/bluebird-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/bluebird/legal/terms-and-conditions"
+to = "/en-us/bluebird-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/serve/legal/privacy-policy"
+to = "/en-us/serve-privacy-policy"
+status = 301
+
+[[redirects]]
+from = "/serve/legal/terms-and-conditions"
+to = "/en-us/serve-terms-and-conditions"
+status = 301
+
+[[redirects]]
+from = "/track-money-transfer"
+to = "/track-a-transfer"
+status = 301
+
+[[redirects]]
+from = "/ria-locator"
+to = "/locations"
+status = 301
+
+[[redirects]]
+from = "/price-calculator"
+to = "/"
+status = 301
+
+[[redirects]]
+from = "/pay-with-cash"
+to = "/en-us/pay-with-cash"
+status = 301
+
+[[redirects]]
+from = "/errorresolution"
+to = "/error-resolution"
+status = 301
+
+[[redirects]]
+from = "/forgot-password"
+to = "https://secure.riamoneytransfer.com/forgot-password"
+status = 301
+
+[[redirects]]
+from = "/sign-in"
+to = "https://secure.riamoneytransfer.com/login"
+status = 301
+
+[[redirects]]
+from = "/en-us/help/faq"
+to = "https://help.riamoneytransfer.com/hc/en-us"
+status = 301
+
+[[redirects]]
+from = "/en-us/register"
+to = "https://secure.riamoneytransfer.com/registration"
+status = 301
+
+# Malformed Iterable locales redirect
+[[redirects]]
+from = "/*/unsubscribe"
+to = "/en-us/unsubscribe"
+status = 301
+
+# Walmart microsite missing locale redirect
+[[redirects]]
+from = "/*/walmart"
+to = "/en-us/walmart"
+status = 301
+
+# "/country" redirects
+[[redirects]]
+from = "/at"
+to = "/de-at"
+status = 301
+
+[[redirects]]
+from = "/au"
+to = "/en-au"
+status = 301
+
+[[redirects]]
+from = "/be"
+to = "/nl-be"
+status = 301
+
+[[redirects]]
+from = "/ca"
+to = "/en-ca"
+status = 301
+
+[[redirects]]
+from = "/ch"
+to = "/en-ch"
+status = 301
+
+[[redirects]]
+from = "/cl"
+to = "/es-cl"
+status = 301
+
+[[redirects]]
+from = "/de"
+to = "/de-de"
+status = 301
+
+[[redirects]]
+from = "/dk"
+to = "/da-dk"
+status = 301
+
+[[redirects]]
+from = "/es"
+to = "/es-es"
+status = 301
+
+[[redirects]]
+from = "/fi"
+to = "/fi-fi"
+status = 301
+
+[[redirects]]
+from = "/fr"
+to = "/fr-fr"
+status = 301
+
+[[redirects]]
+from = "/gb"
+to = "/en-gb"
+status = 301
+
+[[redirects]]
+from = "/gr"
+to = "/en-gr"
+status = 301
+
+[[redirects]]
+from = "/ie"
+to = "/en-ie"
+status = 301
+
+[[redirects]]
+from = "/it"
+to = "/it-it"
+status = 301
+
+[[redirects]]
+from = "/lt"
+to = "/lt-lt"
+status = 301
+
+[[redirects]]
+from = "/lu"
+to = "/fr-lu"
+status = 301
+
+[[redirects]]
+from = "/my"
+to = "/en-my"
+status = 301
+
+[[redirects]]
+from = "/nl"
+to = "/nl-nl"
+status = 301
+
+[[redirects]]
+from = "/no"
+to = "/nb-no"
+status = 301
+
+[[redirects]]
+from = "/pl"
+to = "/en-pl"
+status = 301
+
+[[redirects]]
+from = "/pt"
+to = "/en-pt"
+status = 301
+
+[[redirects]]
+from = "/ro"
+to = "/en-ro"
+status = 301
+
+[[redirects]]
+from = "/se"
+to = "/sv-se"
+status = 301
+
+[[redirects]]
+from = "/us"
+to = "/en-us"
+status = 301
+
+# "/language" redirects
+[[redirects]]
+from = "/da"
+to = "/da-dk/"
+status = 301
+
+[[redirects]]
+from = "/nb"
+to = "/nb-no/"
+status = 301
+
+[[redirects]]
+from = "/sv"
+to = "/sv-se/"
+status = 301
+
+[[redirects]]
+
+from = "/:locale/_next/static/*"
+to = "/static/:splat"
+status = 200
+
+[[redirects]]
+
+from = "/_next/image*"
+to = "/ipx/w:width,q_:quality/:url"
+query = { url = ':url', w = ':width', q = ':quality' }
+status = 301
+
+# Country subdirectory + device language
+[[redirects]]
+from = "/us/*"
+to = "/en-us/:splat"
+status = 302
+conditions = { Language = ["en"] }
+
+[[redirects]]
+from = "/us/*"
+to = "/es-us/:splat"
+status = 302
+conditions = { Language = ["es"] }
+
+[[redirects]]
+from = "/ca/*"
+to = "/en-ca/:splat"
+status = 302
+conditions = { Language = ["en"] }
+
+[[redirects]]
+from = "/ca/*"
+to = "/fr-ca/:splat"
+status = 302
+conditions = { Language = ["fr"] }
+
+[[redirects]]
+from = "/gb/*"
+to = "/en-gb/:splat"
+status = 302
+conditions = { Language = ["en"] }
+
+[[redirects]]
+from = "/gb/*"
+to = "/pl-gb/:splat"
+status = 302
+conditions = { Language = ["pl"] }
+
+# GeoIP redirects   
+[[redirects]]
+from = "/*"
+to = "/id-my/:splat"
+status = 302
+conditions = { Language = ["id"], Country = ["MY"] }
+
+[[redirects]]
+from = "/*"
+to = "/bn-my/:splat"
+status = 302
+conditions = { Language = ["bn"], Country = ["MY"] }
+
+[[redirects]]
+from = "/*"
+to = "/da-dk/:splat"
+status = 302
+conditions = { Language = ["da"], Country = ["DK"] }
+
+[[redirects]]
+from = "/*"
+to = "/nl-be/:splat"
+status = 302
+conditions = { Language = ["nl"], Country = ["BE"] }
+
+[[redirects]]
+from = "/*"
+to = "/nl-nl/:splat"
+status = 302
+conditions = { Language = ["nl"], Country = ["NL"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-au/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["AU"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-at/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["AT"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-be/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["BE"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-ca/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["CA"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-cl/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["CL"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-dk/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["DK"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-fi/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["FI"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-fr/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["FR"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-de/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["DE"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-gr/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["GR"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-ie/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["IE"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-it/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["IT"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-lt/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["LT"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-lu/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["LU"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-my/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["MY"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-np/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["NP"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-nl/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["NL"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-nz/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["NZ"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-no/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["NO"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-pl/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["PL"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-pt/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["PT"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-ro/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["RO"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-es/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["ES"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-se/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["SE"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-ch/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["CH"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-gb/:splat"
+status = 302
+conditions = { Language = ["en"], Country = ["GB"] }
+
+[[redirects]]
+from = "/*"
+to = "/fi-fi/:splat"
+status = 302
+conditions = { Language = ["fi"], Country = ["FI"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-be/:splat"
+status = 302
+conditions = { Language = ["fr"], Country = ["BE"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-ca/:splat"
+status = 302
+conditions = { Language = ["fr"], Country = ["CA"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-cl/:splat"
+status = 302
+conditions = { Language = ["fr"], Country = ["CL"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-fr/:splat"
+status = 302
+conditions = { Language = ["fr"], Country = ["FR"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-lu/:splat"
+status = 302
+conditions = { Language = ["fr"], Country = ["LU"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-ro/:splat"
+status = 302
+conditions = { Language = ["fr"], Country = ["RO"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-ch/:splat"
+status = 302
+conditions = { Language = ["fr"], Country = ["CH"] }
+
+[[redirects]]
+from = "/*"
+to = "/de-at/:splat"
+status = 302
+conditions = { Language = ["de"], Country = ["AT"] }
+
+[[redirects]]
+from = "/*"
+to = "/de-de/:splat"
+status = 302
+conditions = { Language = ["de"], Country = ["DE"] }
+
+[[redirects]]
+from = "/*"
+to = "/de-ch/:splat"
+status = 302
+conditions = { Language = ["de"], Country = ["CH"] }
+
+[[redirects]]
+from = "/*"
+to = "/el-gr/:splat"
+status = 302
+conditions = { Language = ["el"], Country = ["GR"] }
+
+[[redirects]]
+from = "/*"
+to = "/it-it/:splat"
+status = 302
+conditions = { Language = ["it"], Country = ["IT"] }
+
+[[redirects]]
+from = "/*"
+to = "/it-ch/:splat"
+status = 302
+conditions = { Language = ["it"], Country = ["CH"] }
+
+[[redirects]]
+from = "/*"
+to = "/lt-lt/:splat"
+status = 302
+conditions = { Language = ["lt"], Country = ["LT"] }
+
+[[redirects]]
+from = "/*"
+to = "/ms-my/:splat"
+status = 302
+conditions = { Language = ["ms"], Country = ["MY"] }
+
+[[redirects]]
+from = "/*"
+to = "/ne-my/:splat"
+status = 302
+conditions = { Language = ["ne"], Country = ["MY"] }
+
+[[redirects]]
+from = "/*"
+to = "/ne-np/:splat"
+status = 302
+conditions = { Language = ["ne"], Country = ["NP"] }
+
+[[redirects]]
+from = "/*"
+to = "/nb-no/:splat"
+status = 302
+conditions = { Language = ["nb"], Country = ["NO"] }
+
+[[redirects]]
+from = "/*"
+to = "/pl-gb/:splat"
+status = 302
+conditions = { Language = ["pl"], Country = ["GB"] }
+
+[[redirects]]
+from = "/*"
+to = "/pl-pl/:splat"
+status = 302
+conditions = { Language = ["pl"], Country = ["PL"] }
+
+[[redirects]]
+from = "/*"
+to = "/pt-pt/:splat"
+status = 302
+conditions = { Language = ["pt"], Country = ["PT"] }
+
+[[redirects]]
+from = "/*"
+to = "/es-cl/:splat"
+status = 302
+conditions = { Language = ["es"], Country = ["CL"] }
+
+[[redirects]]
+from = "/*"
+to = "/es-es/:splat"
+status = 302
+conditions = { Language = ["es"], Country = ["ES"] }
+
+[[redirects]]
+from = "/*"
+to = "/es-us/:splat"
+status = 302
+conditions = { Language = ["es"], Country = ["US"] }
+
+[[redirects]]
+from = "/*"
+to = "/sv-se/:splat"
+status = 302
+conditions = { Language = ["sv"], Country = ["SE"] }
+
+[[redirects]]
+from = "/*"
+to = "/tl-au/:splat"
+status = 302
+conditions = { Language = ["tl"], Country = ["AU"] }
+
+[[redirects]]
+from = "/*"
+to = "/tl-nz/:splat"
+status = 302
+conditions = { Language = ["tl"], Country = ["NZ"] }
+
+[[redirects]]
+from = "/*"
+to = "/th-au/:splat"
+status = 302
+conditions = { Language = ["th"], Country = ["AU"] }
+
+[[redirects]]
+from = "/*"
+to = "/th-nz/:splat"
+status = 302
+conditions = { Language = ["th"], Country = ["NZ"] }
+
+[[redirects]]
+from = "/*"
+to = "/vi-au/:splat"
+status = 302
+conditions = { Language = ["vi"], Country = ["AU"] }
+
+[[redirects]]
+from = "/*"
+to = "/vi-ca/:splat"
+status = 302
+conditions = { Language = ["vi"], Country = ["CA"] }
+
+[[redirects]]
+from = "/*"
+to = "/vi-nz/:splat"
+status = 302
+conditions = { Language = ["vi"], Country = ["NZ"] }
+
+[[redirects]]
+from = "/*"
+to = "/vi-us/:splat"
+status = 302
+conditions = { Language = ["vi"], Country = ["US"] }
+
+# Redirect to default language by country
+[[redirects]]
+from = "/*"
+to = "/da-dk/:splat"
+status = 302
+conditions = { Country = ["DK"] }
+
+[[redirects]]
+from = "/*"
+to = "/de-at/:splat"
+status = 302
+conditions = { Country = ["AT"] }
+
+[[redirects]]
+from = "/*"
+to = "/de-de/:splat"
+status = 302
+conditions = { Country = ["DE"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-au/:splat"
+status = 302
+conditions = { Country = ["AU"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-ca/:splat"
+status = 302
+conditions = { Country = ["CA"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-ch/:splat"
+status = 302
+conditions = { Country = ["CH"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-gb/:splat"
+status = 302
+conditions = { Country = ["GB"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-gr/:splat"
+status = 302
+conditions = { Country = ["GR"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-ie/:splat"
+status = 302
+conditions = { Country = ["IE"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-my/:splat"
+status = 302
+conditions = { Country = ["MY"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-pl/:splat"
+status = 302
+conditions = { Country = ["PL"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-pt/:splat"
+status = 302
+conditions = { Country = ["PT"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-ro/:splat"
+status = 302
+conditions = { Country = ["RO"] }
+
+[[redirects]]
+from = "/*"
+to = "/en-us/:splat"
+status = 302
+conditions = { Country = ["US"] }
+
+[[redirects]]
+from = "/*"
+to = "/es-cl/:splat"
+status = 302
+conditions = { Country = ["CL"] }
+
+[[redirects]]
+from = "/*"
+to = "/es-es/:splat"
+status = 302
+conditions = { Country = ["ES"] }
+
+[[redirects]]
+from = "/*"
+to = "/fi-fi/:splat"
+status = 302
+conditions = { Country = ["FI"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-fr/:splat"
+status = 302
+conditions = { Country = ["FR"] }
+
+[[redirects]]
+from = "/*"
+to = "/fr-lu/:splat"
+status = 302
+conditions = { Country = ["LU"] }
+
+[[redirects]]
+from = "/*"
+to = "/it-it/:splat"
+status = 302
+conditions = { Country = ["IT"] }
+
+[[redirects]]
+from = "/*"
+to = "/lt-lt/:splat"
+status = 302
+conditions = { Country = ["LT"] }
+
+[[redirects]]
+from = "/*"
+to = "/nb-no/:splat"
+status = 302
+conditions = { Country = ["NO"] }
+
+[[redirects]]
+from = "/*"
+to = "/nl-be/:splat"
+status = 302
+conditions = { Country = ["BE"] }
+
+[[redirects]]
+from = "/*"
+to = "/nl-nl/:splat"
+status = 302
+conditions = { Country = ["NL"] }
+
+[[redirects]]
+from = "/*"
+to = "/sv-se/:splat"
+status = 302
+conditions = { Country = ["SE"] }
+
+# This is the default value to redirect countries that are not on this list
+[[redirects]]
+from = "/*"
+to = "/en-us"
+status = 301
+
+# 404 Redirects
+[[redirects]]
+from = "/en-us/*"
+to = "/en-us/404"
+status = 404
+conditions = { Language = ["en"], Country = ["US"] }
+
+[[redirects]]
+from = "/id-my/*"
+to = "/id-my/404"
+status = 404
+conditions = { Language = ["id"], Country = ["MY"] }
+
+[[redirects]]
+from = "/bn-my/*"
+to = "/bn-my/404"
+status = 404
+conditions = { Language = ["bn"], Country = ["MY"] }
+
+[[redirects]]
+from = "/da-dk/*"
+to = "/da-dk/404"
+status = 404
+conditions = { Language = ["da"], Country = ["DK"] }
+
+[[redirects]]
+from = "/nl-be/*"
+to = "/nl-be/404"
+status = 404
+conditions = { Language = ["nl"], Country = ["BE"] }
+
+[[redirects]]
+from = "/nl-nl/*"
+to = "/nl-nl/404"
+status = 404
+conditions = { Language = ["nl"], Country = ["NL"] }
+
+[[redirects]]
+from = "/en-au/*"
+to = "/en-au/404"
+status = 404
+conditions = { Language = ["en"], Country = ["AU"] }
+
+[[redirects]]
+from = "/en-at/*"
+to = "/en-at/404"
+status = 404
+conditions = { Language = ["en"], Country = ["AT"] }
+
+[[redirects]]
+from = "/en-be/*"
+to = "/en-be/404"
+status = 404
+conditions = { Language = ["en"], Country = ["BE"] }
+
+[[redirects]]
+from = "/en-ca/*"
+to = "/en-ca/404"
+status = 404
+conditions = { Language = ["en"], Country = ["CA"] }
+
+[[redirects]]
+from = "/en-cl/*"
+to = "/en-cl/404"
+status = 404
+conditions = { Language = ["en"], Country = ["CL"] }
+
+[[redirects]]
+from = "/en-dk/*"
+to = "/en-dk/404"
+status = 404
+conditions = { Language = ["en"], Country = ["DK"] }
+
+[[redirects]]
+from = "/en-fi/*"
+to = "/en-fi/404"
+status = 404
+conditions = { Language = ["en"], Country = ["FI"] }
+
+[[redirects]]
+from = "/en-fr/*"
+to = "/en-fr/404"
+status = 404
+conditions = { Language = ["en"], Country = ["FR"] }
+
+[[redirects]]
+from = "/en-de/*"
+to = "/en-de/404"
+status = 404
+conditions = { Language = ["en"], Country = ["DE"] }
+
+[[redirects]]
+from = "/en-gr/*"
+to = "/en-gr/404"
+status = 404
+conditions = { Language = ["en"], Country = ["GR"] }
+
+[[redirects]]
+from = "/en-ie/*"
+to = "/en-ie/404"
+status = 404
+conditions = { Language = ["en"], Country = ["IE"] }
+
+[[redirects]]
+from = "/en-it/*"
+to = "/en-it/404"
+status = 404
+conditions = { Language = ["en"], Country = ["IT"] }
+
+[[redirects]]
+from = "/en-lt/*"
+to = "/en-lt/404"
+status = 404
+conditions = { Language = ["en"], Country = ["LT"] }
+
+[[redirects]]
+from = "/en-lu/*"
+to = "/en-lu/404"
+status = 404
+conditions = { Language = ["en"], Country = ["LU"] }
+
+[[redirects]]
+from = "/en-my/*"
+to = "/en-my/404"
+status = 404
+conditions = { Language = ["en"], Country = ["MY"] }
+
+[[redirects]]
+from = "/en-np/*"
+to = "/en-np/404"
+status = 404
+conditions = { Language = ["en"], Country = ["NP"] }
+
+[[redirects]]
+from = "/en-nl/*"
+to = "/en-nl/404"
+status = 404
+conditions = { Language = ["en"], Country = ["NL"] }
+
+[[redirects]]
+from = "/en-nz/*"
+to = "/en-nz/404"
+status = 404
+conditions = { Language = ["en"], Country = ["NZ"] }
+
+[[redirects]]
+from = "/en-no/*"
+to = "/en-no/404"
+status = 404
+conditions = { Language = ["en"], Country = ["NO"] }
+
+[[redirects]]
+from = "/en-pl/*"
+to = "/en-pl/404"
+status = 404
+conditions = { Language = ["en"], Country = ["PL"] }
+
+[[redirects]]
+from = "/en-pt/*"
+to = "/en-pt/404"
+status = 404
+conditions = { Language = ["en"], Country = ["PT"] }
+
+[[redirects]]
+from = "/en-ro/*"
+to = "/en-ro/404"
+status = 404
+conditions = { Language = ["en"], Country = ["RO"] }
+
+[[redirects]]
+from = "/en-es/*"
+to = "/en-es/404"
+status = 404
+conditions = { Language = ["en"], Country = ["ES"] }
+
+[[redirects]]
+from = "/en-se/*"
+to = "/en-se/404"
+status = 404
+conditions = { Language = ["en"], Country = ["SE"] }
+
+[[redirects]]
+from = "/en-ch/*"
+to = "/en-ch/404"
+status = 404
+conditions = { Language = ["en"], Country = ["CH"] }
+
+[[redirects]]
+from = "/en-gb/*"
+to = "/en-gb/404"
+status = 404
+conditions = { Language = ["en"], Country = ["GB"] }
+
+[[redirects]]
+from = "/fi-fi/*"
+to = "/fi-fi/404"
+status = 404
+conditions = { Language = ["fi"], Country = ["FI"] }
+
+[[redirects]]
+from = "/fr-be/*"
+to = "/fr-be/404"
+status = 404
+conditions = { Language = ["fr"], Country = ["BE"] }
+
+[[redirects]]
+from = "/fr-ca/*"
+to = "/fr-ca/404"
+status = 404
+conditions = { Language = ["fr"], Country = ["CA"] }
+
+[[redirects]]
+from = "/fr-cl/*"
+to = "/fr-cl/404"
+status = 404
+conditions = { Language = ["fr"], Country = ["CL"] }
+
+[[redirects]]
+from = "/fr-fr/*"
+to = "/fr-fr/404"
+status = 404
+conditions = { Language = ["fr"], Country = ["FR"] }
+
+[[redirects]]
+from = "/fr-lu/*"
+to = "/fr-lu/404"
+status = 404
+conditions = { Language = ["fr"], Country = ["LU"] }
+
+[[redirects]]
+from = "/fr-ro/*"
+to = "/fr-ro/404"
+status = 404
+conditions = { Language = ["fr"], Country = ["RO"] }
+
+[[redirects]]
+from = "/fr-ch/*"
+to = "/fr-ch/404"
+status = 404
+conditions = { Language = ["fr"], Country = ["CH"] }
+
+[[redirects]]
+from = "/de-at/*"
+to = "/de-at/404"
+status = 404
+conditions = { Language = ["de"], Country = ["AT"] }
+
+[[redirects]]
+from = "/de-de/*"
+to = "/de-de/404"
+status = 404
+conditions = { Language = ["de"], Country = ["DE"] }
+
+[[redirects]]
+from = "/de-ch/*"
+to = "/de-ch/404"
+status = 404
+conditions = { Language = ["de"], Country = ["CH"] }
+
+[[redirects]]
+from = "/el-gr/*"
+to = "/el-gr/404"
+status = 404
+conditions = { Language = ["el"], Country = ["GR"] }
+
+[[redirects]]
+from = "/it-it/*"
+to = "/it-it/404"
+status = 404
+conditions = { Language = ["it"], Country = ["IT"] }
+
+[[redirects]]
+from = "/it-ch/*"
+to = "/it-ch/404"
+status = 404
+conditions = { Language = ["it"], Country = ["CH"] }
+
+[[redirects]]
+from = "/lt-lt/*"
+to = "/lt-lt/404"
+status = 404
+conditions = { Language = ["lt"], Country = ["LT"] }
+
+[[redirects]]
+from = "/ms-my/*"
+to = "/ms-my/404"
+status = 404
+conditions = { Language = ["ms"], Country = ["MY"] }
+
+[[redirects]]
+from = "/ne-my/*"
+to = "/ne-my/404"
+status = 404
+conditions = { Language = ["ne"], Country = ["MY"] }
+
+[[redirects]]
+from = "/ne-np/*"
+to = "/ne-np/404"
+status = 404
+conditions = { Language = ["ne"], Country = ["NP"] }
+
+[[redirects]]
+from = "/nb-no/*"
+to = "/nb-no/404"
+status = 404
+conditions = { Language = ["nb"], Country = ["NO"] }
+
+[[redirects]]
+from = "/pl-gb/*"
+to = "/pl-gb/404"
+status = 404
+conditions = { Language = ["pl"], Country = ["GB"] }
+
+[[redirects]]
+from = "/pl-pl/*"
+to = "/pl-pl/404"
+status = 404
+conditions = { Language = ["pl"], Country = ["PL"] }
+
+[[redirects]]
+from = "/pt-pt/*"
+to = "/pt-pt/404"
+status = 404
+conditions = { Language = ["pt"], Country = ["PT"] }
+
+[[redirects]]
+from = "/es-cl/*"
+to = "/es-cl/404"
+status = 404
+conditions = { Language = ["es"], Country = ["CL"] }
+
+[[redirects]]
+from = "/es-es/*"
+to = "/es-es/404"
+status = 404
+conditions = { Language = ["es"], Country = ["ES"] }
+
+[[redirects]]
+from = "/es-us/*"
+to = "/es-us/404"
+status = 404
+conditions = { Language = ["es"], Country = ["US"] }
+
+[[redirects]]
+from = "/sv-se/*"
+to = "/sv-se/404"
+status = 404
+conditions = { Language = ["sv"], Country = ["SE"] }
+
+[[redirects]]
+from = "/tl-au/*"
+to = "/tl-au/404"
+status = 404
+conditions = { Language = ["tl"], Country = ["AU"] }
+
+[[redirects]]
+from = "/tl-nz/*"
+to = "/tl-nz/404"
+status = 404
+conditions = { Language = ["tl"], Country = ["NZ"] }
+
+[[redirects]]
+from = "/th-au/*"
+to = "/th-au/404"
+status = 404
+conditions = { Language = ["th"], Country = ["AU"] }
+
+[[redirects]]
+from = "/th-nz/*"
+to = "/th-nz/404"
+status = 404
+conditions = { Language = ["th"], Country = ["NZ"] }
+
+[[redirects]]
+from = "/vi-au/*"
+to = "/vi-au/404"
+status = 404
+conditions = { Language = ["vi"], Country = ["AU"] }
+
+[[redirects]]
+from = "/vi-ca/*"
+to = "/vi-ca/404"
+status = 404
+conditions = { Language = ["vi"], Country = ["CA"] }
+
+[[redirects]]
+from = "/vi-nz/*"
+to = "/vi-nz/404"
+status = 404
+conditions = { Language = ["vi"], Country = ["NZ"] }
+
+[[redirects]]
+from = "/vi-us/*"
+to = "/vi-us/404"
+status = 404
+conditions = { Language = ["vi"], Country = ["US"] }
