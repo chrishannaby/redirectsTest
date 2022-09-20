@@ -4,6 +4,14 @@ for = "/*"
 X-XSS-Protection = "1; mode=block"
 X-Frame-Options = ""
 
+# fix test
+
+[[redirects]]
+
+from = "*/_next/static/*"
+to = "/_next/static/:splat"
+status = 200
+
 # App Privacy Policy Redirects
 [[redirects]]
 from = "/de/app-privacy-policy-EU"
@@ -1344,10 +1352,3 @@ to = "/vi-us/404"
 status = 404
 conditions = { Language = ["vi"], Country = ["US"] }
 
-# fix test
-
-[[redirects]]
-
-from = "*/_next/static/*"
-to = "/_next/static/:splat"
-status = 200
