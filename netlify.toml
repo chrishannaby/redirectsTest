@@ -8,8 +8,8 @@ X-Frame-Options = ""
 
 [[redirects]]
 
-from = "/:locale/_next/static/*"
-to = "/_next/static/:splat"
+from = "/_next/static/*"
+to = "/static/:splat"
 status = 200
 
 # App Privacy Policy Redirects
