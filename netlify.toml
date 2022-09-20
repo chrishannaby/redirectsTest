@@ -795,7 +795,7 @@ conditions = { Language = ["vi"], Country = ["US"] }
 [[redirects]]
 
 from = "*/_next/static/*"
-to = "_next/static/:splat"
+to = "/_next/static/:splat"
 status = 200
 
 # Redirect to default language by country
