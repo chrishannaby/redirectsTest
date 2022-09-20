@@ -10,11 +10,13 @@ X-Frame-Options = ""
 from = "/_next/static/*"
 to = "/static/:splat"
 status = 200
+force = true
 
 [[redirects]]
 from = "/:locale/_next/static/*"
 to = "/static/:splat"
 status = 200
+force = true
 
 # App Privacy Policy Redirects
 [[redirects]]
