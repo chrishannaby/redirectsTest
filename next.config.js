@@ -13,6 +13,7 @@ const nextConfig = async () => {
   const locales = repository.languages.map(lang => lang.id);
 
   return {
+    assetPrefix: ".",
     trailingSlash: true,
     reactStrictMode: true,
     i18n: {

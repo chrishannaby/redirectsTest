@@ -790,14 +790,6 @@ to = "/vi-us/:splat"
 status = 302
 conditions = { Language = ["vi"], Country = ["US"] }
 
-# fix test
-
-[[redirects]]
-
-from = "*/_next/static/*"
-to = "/_next/static/:splat"
-status = 200
-
 # Redirect to default language by country
 [[redirects]]
 from = "/*"
@@ -1351,3 +1343,11 @@ from = "/vi-us/*"
 to = "/vi-us/404"
 status = 404
 conditions = { Language = ["vi"], Country = ["US"] }
+
+# fix test
+
+[[redirects]]
+
+from = "*/_next/static/*"
+to = "/_next/static/:splat"
+status = 200
