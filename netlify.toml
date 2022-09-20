@@ -8,7 +8,7 @@ X-Frame-Options = ""
 
 [[redirects]]
 
-from = "*/_next/static/*"
+from = "/:locale/_next/static/*"
 to = "/_next/static/:splat"
 status = 200
 
