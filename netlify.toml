@@ -4,6 +4,22 @@ for = "/*"
 X-XSS-Protection = "1; mode=block"
 X-Frame-Options = ""
 
+# fix test
+
+[[redirects]]
+
+from = "/:locale/_next/static/*"
+to = "/static/:splat"
+status = 200
+
+[[redirects]]
+
+from = "/_next/image*"
+to = "/ipx/w:width,q_:quality/:url"
+query = { url = ':url', w = ':width', q = ':quality' }
+status = 301
+
+
 # App Privacy Policy Redirects
 [[redirects]]
 from = "/de/app-privacy-policy-EU"
@@ -360,19 +376,6 @@ status = 301
 [[redirects]]
 from = "/sv"
 to = "/sv-se/"
-status = 301
-
-[[redirects]]
-
-from = "/:locale/_next/static/*"
-to = "/static/:splat"
-status = 200
-
-[[redirects]]
-
-from = "/_next/image*"
-to = "/ipx/w:width,q_:quality/:url"
-query = { url = ':url', w = ':width', q = ':quality' }
 status = 301
 
 # Country subdirectory + device language
