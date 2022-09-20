@@ -7,8 +7,12 @@ X-Frame-Options = ""
 # fix test
 
 [[redirects]]
-
 from = "/_next/static/*"
+to = "/static/:splat"
+status = 200
+
+[[redirects]]
+from = "/:locale/_next/static/*"
 to = "/static/:splat"
 status = 200
 
